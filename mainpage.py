@@ -173,7 +173,7 @@ class Toplevel1:
         phone=self.Entry3.get()
         otpass = otp
         url1 = "https://www.fast2sms.com/dev/bulk"
-        diction = {"authorization": "JV85Zqk7hpfcSATFU4Duv2irMGQOPxoyYKdHXjsbCe3nRLNEgmwOXQVk0bvAYdzht4W6iL13qa7BFHeo",
+        diction = {"authorization": "INSERT YOUR API KEY HERE",
                    "sender_id": "FSTSMS",
                    "message": "Your otp is " + str(otpass),
                    "language": "english",
